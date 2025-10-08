@@ -3,7 +3,7 @@
 $matriks = [];
 for ($i = 0; $i < 3; $i++) {
     for ($j = 0; $j < 3; $j++) {
-        $matriks[$i][$j] = rand(1, 9);
+        $matriks[$i][$j] = rand(1, 9); // untuk mengacak angka
     }
 }
 
